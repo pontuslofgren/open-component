@@ -1,0 +1,25 @@
+.container {
+  width: 400px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  border: 1px solid gray;
+}
+
+div.title {
+  display: flex;
+  flex-direction: column;
+}
+
+div.title p{
+  margin: 0;
+}
+
+p.title {
+  color: purple;
+  font-weight: bold;
+  font-size: 1.1em;
+}
