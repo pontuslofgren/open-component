@@ -1,0 +1,17 @@
+.bars {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  align-items: stretch;
+}
+
+.bar {
+  height: 1.2em;
+  width: 0.4em;
+  background-color: lightgray;
+  border-radius: 1px;
+}
+
+.bar.green {
+  background-color: rgb(16, 198, 16);
+}

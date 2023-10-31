@@ -1,0 +1,38 @@
+.deals {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.deal {
+  border-bottom: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #d8d8d8;
+  padding: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.deal .text-area .title{
+  color: purple;
+}
+
+.deal p {
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: darkslategray;
+}
+
+.deals :last-child {
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+.deals :first-child {
+  padding-top: 0px;
+}
+
+.qualification-area {
+  min-width: 100px;
+}

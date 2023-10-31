@@ -1,5 +1,5 @@
 .container {
-  width: 400px;
+  min-width: 400px;
   box-shadow: 0 0 30px rgba(0,0,0,0.1);
   padding: 30px;
   border-radius: 10px;
@@ -7,13 +7,6 @@
   flex-direction: column;
   row-gap: 20px;
   border: 1px solid gray;
-}
-
-@media screen and (max-width: 600px) {
-  .container {
-    width: 90%;
-  }
-
 }
 
 div.title {
@@ -27,6 +20,6 @@ div.title p{
 
 p.title {
   color: purple;
-  font-weight: bold;
   font-size: 1.1em;
+  font-weight: bold;
 }
